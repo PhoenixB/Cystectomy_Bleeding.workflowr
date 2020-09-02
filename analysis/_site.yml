@@ -1,7 +1,7 @@
-name: "Cystectomy_Bleeding.workflowr"
+name: Cystectomy_Bleeding.workflowr
 output_dir: ../docs
 navbar:
-  title: "Cystectomy_Bleeding.workflowr"
+  title: Cystectomy_Bleeding.workflowr
   left:
   - text: Home
     href: index.html
@@ -9,6 +9,10 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  right:
+  - icon: fa-github
+    text: Source code
+    href: https://github.com/PhoenixB/Cystectomy_Bleeding.workflowr
 output:
   workflowr::wflow_html:
     toc: yes
